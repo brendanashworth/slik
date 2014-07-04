@@ -1,0 +1,9 @@
+{
+  "name": "slik",
+  "main": "views/index.html",
+  "window": {
+  	"title": "Slik",
+  	"width": 1024,
+  	"height": 640
+  }
+}

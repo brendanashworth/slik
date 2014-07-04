@@ -1,0 +1,76 @@
+/* Styles */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1rem;
+	font-family: sans-serif;
+	margin-top: 100px;
+}
+
+.header {
+	top: 0; right: 0; left: 0;
+	position: fixed;
+	padding: 25px;
+	height: 80px;
+	background: #474747;
+}
+
+.input-details {
+	margin-left: auto;
+	margin-right: auto;
+	width: 850px;
+}
+
+/* Transition alerts */
+.alert {
+	transition: all .25s;
+}
+
+/* Dividors */
+div[class^='div-'] {
+	display: inline-block;
+}
+
+.div-12 {
+	width: 99%;
+}
+.div-9 {
+	width: 74%;
+}
+.div-6 {
+	width: 49%;
+}
+.div-3 {
+	width: 24%;
+}
+
+/* File list */
+.files {
+	list-style-type: none;
+	padding-left: 0;
+	border: 1px solid #000;
+	border-bottom: 0;
+}
+
+.files li {
+	border-bottom: 1px solid #000;
+	background: #474747;
+	width: 100%;
+
+	transition: all .3s;
+	font-size: 1.4rem;
+}
+
+.files li:hover {
+	background: #686868;
+	transition: all .3s;
+}
+
+.files li a {
+	display: block;
+	color: #DDD;
+	text-decoration: none;
+	padding: 10px;
+}
